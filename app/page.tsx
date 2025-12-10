@@ -11,7 +11,7 @@ interface Product {
 
 export default async function ProductsTable() {
   
-  const API_URL = 'http://localhost:3001/api/products';
+  const API_URL = 'http://localhost:5000/api/products';
   
   let products: Product[] = [];
   
