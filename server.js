@@ -61,5 +61,5 @@ app.get("/api/products", (req, res) => {
 
 // ✅ เปิดเซิร์ฟเวอร์
 app.listen(3001, () => {
-  console.log("✅ Server running at http://localhost:3001");
+  console.log("✅ Server running at http://localhost:5000");
 });
